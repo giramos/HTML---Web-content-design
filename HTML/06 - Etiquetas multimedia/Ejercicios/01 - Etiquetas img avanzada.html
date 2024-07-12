@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img avanzada</title>
+</head>
+<!-- Usar ancho y alto para optimizar-->
+
+<body>
+    <p>
+        <img width="448" height="299" src="/HTML/06 - Etiquetas multimedia/recursos-bloque06/1-ardilla.jpg"
+            alt="ardilla">
+    </p>
+
+    <p>
+        <!-- Condicionales para usar una imagen en un tamaño u otra -->
+        <img srcset="/HTML/06 - Etiquetas multimedia/recursos-bloque06/1-ardilla.jpg 448w, 
+        /HTML/06 - Etiquetas multimedia/recursos-bloque06/1-ardilla.jpg 1280w" sizes="(max-width: 600px) 448px,
+        1280px" src="/HTML/06 - Etiquetas multimedia/recursos-bloque06/1-ardilla.jpg" alt="ardilla">
+    </p>
+
+</body>
+
+</html>
