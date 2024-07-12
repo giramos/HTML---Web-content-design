@@ -1,0 +1,7 @@
+1 - Etiquetas ->
+
+https://html.spec.whatwg.org/multipage/named-characters.html
+
+2 - Emojis ->
+
+https://www.w3schools.com/html/html_emojis.asp 

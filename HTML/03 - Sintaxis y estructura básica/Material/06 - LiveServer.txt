@@ -1,0 +1,8 @@
+PROTOCOLO HTTP
+
+Instalar en VSC la extensión Live server
+Dar a  activarlo
+Visualizar en el navegador nuestra carpeta
+Equivale a localhost:5500
+Por defecto siempre abre la página inicial index.html
+
