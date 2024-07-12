@@ -1,0 +1,15 @@
+1 - Para meter metainformacion que se ajuste la imagen a móviles ->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+2 - Para que en las pestañas de las ventanas del navegador apareezca la imagen icono ->
+
+<link rel="icon" href="julio.png">
+
+3 - Para que acepte tildes y carácteres especiales de cualquier idioma ->
+
+<meta charset="utf-8">
+
+4 - Página web para convertir cualquier imagen en iconos de dimensiones más pequeñas ->
+
+https://favicon.io/
