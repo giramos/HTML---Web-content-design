@@ -1,0 +1,5 @@
+Las pitones (Pythonidae) son una familia de serpientes y Python es un lenguaje de programación.
+Es un lenguaje fácil de aprender y merece la pena echarle un ojo ¡No te arrepentirás! 
+La función print() sirve para mostrar texto por pantalla.
+
+
