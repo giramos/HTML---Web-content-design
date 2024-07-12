@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fusionar celdas</title>
+</head>
+
+<body>
+    <h1>Fusionar celdas en tablas</h1>
+    <table>
+        <caption>Relación de productos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Producto</th>
+                <th scope="col">Sabores</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Tarrina de helado</td><!-- Esta fila ocupa 3 celdas-->
+                <td>Turrón</td>
+            </tr>
+            <tr>
+                <td>Chocolate</td>
+            </tr>
+            <tr>
+                <td>Vainilla</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <caption>Gastos por empleado</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellidos</th>
+                <th scope="col">Gastos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alicia</td>
+                <td>González</td>
+                <td>125 €</td>
+            </tr>
+
+            <tr>
+                <td>Albert</td>
+                <td>Pérez</td>
+                <td>110 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total de gastos</th> <!-- Fusionamos 2 columnas -->
+                <td>625 €</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas basicas: Encabezados</title>
+</head>
+
+<body>
+    <h1>Como crear una tabla</h1>
+    <!-- etiqueta table , incluir etiqueta tr -->
+    <table>
+        <caption>Relación de empleados de la empresa</caption> <!-- Encabezados-->
+        <!-- tr : define una fila de la tabla -->
+        <tr>
+            <!-- th: cabeceras de la tabla -->
+            <th scope="col">Nombre</th>
+            <th scope="col">Cargo</th>
+            <th scope="col">Contacto</th>
+        </tr>
+        <tr>
+            <!-- td : celda -->
+            <td>Alicia</td>
+            <td>Presidenta</td>
+            <td>alicia@terra.es</td>
+
+        </tr>
+        <tr>
+            <td>German</td>
+            <td>Jefe</td>
+            <td>german@terra.es</td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <caption>Comparativa de características</caption>
+        <tr>
+            <th></th>
+            <th scope="col">Gratuita</th>
+            <th scope="col">Premium</th>
+        </tr>
+        <tr>
+            <th scope="row">Calidad</th>
+            <td>HD</td>
+            <td>4k</td>
+        </tr>
+        <tr>
+            <th scope="row">Dispositivos</th>
+            <td>1</td>
+            <td>4</td>
+        </tr>
+    </table>
+</body>
+
+</html>

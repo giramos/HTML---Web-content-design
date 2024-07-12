@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Completa</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de tabla</h1>
+    <table>
+        <caption>Semana 16. Horario de Pedro</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th scope="col">L</th>
+                <th scope="col">M</th>
+                <th scope="col">X</th>
+                <th scope="col">J</th>
+                <th scope="col">V</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">10 a 11</th>
+                <td rowspan="3">Mostrador</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">11 a 12</th>
+                <td></td>
+                <td rowspan="2">Almacén</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th scope="row">12 a 13</th>
+                <td></td>
+                <td></td>
+                <td>Almacén</td>
+            </tr>
+            <tr>
+                <th scope="row">13 a 14</th>
+                <td colspan="5">Cerrado</td>
+            </tr>
+            <tr>
+                <th scope="row">14 a 15</th>
+                <td>Mostrados</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Almacén</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="5" scope="row">Total de horas</th>
+                <td>8 horas</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
