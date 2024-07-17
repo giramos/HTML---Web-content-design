@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta datalist</title>
+</head>
+
+<body>
+    <h1>Etiqueta Datalist</h1>
+    <form action="#">
+        <label for="busqueda">Busqueda:</label>
+        <input type="search" name="busqueda" id="busqueda" list="sugerencias">
+
+
+        <datalist id="sugerencias">
+            <option value="libros">Libros</option>
+            <option value="literatura">Literatura</option>
+            <option value="cine">Cine</option>
+
+        </datalist>
+
+        <br>
+
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" list="colores">
+
+        <datalist id="colores">
+            <option value="#000000"></option>
+            <option value="#FFFFFF"></option>
+        </datalist>
+
+
+
+
+
+        <br>
+        <button>Enviar</button>
+    </form>
+
+</body>
+
+</html>

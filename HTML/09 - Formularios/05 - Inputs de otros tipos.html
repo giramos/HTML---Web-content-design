@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otros tipos</title>
+</head>
+<body>
+    <h1>Otros inputs</h1>
+    <form enctype="multipart/form-data" action="#"><!--Para subir ficheros se debe añadir enctype="multipart/form-data"-->
+        <label for="numero">Seleccione una cantidad:</label>
+        <input type="number" name="numero" id="numero" min="1" max="5" step="0.25">
+        <br>
+
+        <label for="color">Seleccione un color:</label>
+        <input type="color" name="color" id="color" value="#FFOOOO">
+        <!-- valores de los colores en Hexadecimal
+            ir a Google.
+            buscar color picker
+            aparece la paleta de colores con su correspondiente valor HEX 
+        -->
+
+        <br>
+
+        <label for="ficher">Subir fichero(s):</label>
+        <input type="file" name="fichero" id="ficher" multiple 
+        accept=".html,.pdf">
+        <!-- accept="image/*, .jpg"-->
+         <!-- accept="video/*, .mp4"-->
+          <!-- para saber el tipo de cada elemento
+            ir a Google
+            buscar mime type
+            -->
+
+        <br>
+
+        <input type="submit" value="Registrame"> <!-- Sustituye al boton -->
+        <input type="reset" value="Reiniciar formulario"> <!-- Reinicia los valores -->
+
+        
+
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

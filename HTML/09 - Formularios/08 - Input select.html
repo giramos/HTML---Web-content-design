@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs select</title>
+</head>
+<body>
+    <h1>Inputs select: Listas desplegables</h1>
+    <form action="#">
+        <label for="fruta">Seleccione una fruta:</label>
+        <select name="fruta" id="fruta" multiple> <!-- multiple para seleccionar varios eleemtnos-->
+            <!--
+            <select name="fruta" id="fruta" requiered> 
+            <select name="fruta" id="fruta" size="2"> 
+            -->
+            <option value="manzana">Manzana</option>
+            <option selected value="pera">Pera</option><!-- sleceted valor por defecte-->
+            <option value="melon">Melón</option>
+        </select>
+
+        <br>
+
+        <label for="fruta1">Seleccione una fruta:</label>
+        <select name="fruta1" id="fruta1">
+            <option value="manzana">Manzana</option>
+            <option value="pera">Pera</option><!-- sleceted valor por defecte-->
+            <option value="melon">Melón</option>
+        </select>
+
+        <br>
+
+        <label for="fruta2">Seleccione una fruta:</label>
+        <select name="fruta2" id="fruta2">
+            <option disabled value="">Frutas...</option><!-- disabled como un Titulo-->
+            <option value="manzana">Manzana</option>
+            <option value="pera">Pera</option><!-- sleceted valor por defecte-->
+            <option value="melon">Melón</option>
+        </select>
+
+        <br>
+
+        <label for="fruta3">Seleccione un producto:</label>
+        <select name="fruta3" id="fruta3">
+            <optgroup label="Frutas"> <!-- optgroup para agrupar -->
+                <option value="manzana">Manzana</option>
+                <option value="pera">Pera</option>
+                <option value="melon">Melón</option>
+            </optgroup>
+            <optgroup label="Bebidas">
+                <option value="agua">Agua</option>
+                <option value="te">Té</option>
+                <option value="cafe">Café</option>
+            </optgroup>
+        </select>
+
+
+        <br>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario ejemplo</title>
+</head>
+<body>
+    <h1>Formulario de registor</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required minlength="2">
+    
+            <label for="pais">País de Residencia:</label>
+            <select name="pais" id="pais">
+                <option value="españa">España</option>
+                <option selected value="portugal">Portugal</option>
+                <option value="francia">Francia</option>
+            </select>
+    
+            <br>
+    
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" name="fecha" id="fecha" value="1980-01-15" required>
+        </fieldset>
+        
+
+
+    
+    <!--
+        Datos personales:
+        nombre, país de residencia y fecha de nacimiento.
+    -->
+
+    <fieldset>
+        <legend>Datos de contacto</legend>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="tel" name="telefono" id="telefono" placeholder="+34 200 200 200">
+
+        <br>
+
+        <p>¿Cómo podemos ponernos en contacto con usted?</p>
+        <input type="radio" name="contacto" id="c-email" value="c-email" checked>
+        <label for="c-email">Email</label>
+
+        <input type="radio" name="contacto" id="c-telefono" value="c-telefono">
+        <label for="c-telefono">Telefono</label>
+
+        <br>
+
+        <input type="checkbox" name="permiso" id="permiso">
+        <label for="permiso">Permito contacto por parte de la empresa</label>
+
+    </fieldset>
+
+    <!--
+        Datos de contacto:
+        email, telefono, preferencia de contacto: email o telefono
+        Permitir a la empresa contacta con el usuario
+    -->
+        <input type="submit" value="Registrame">
+</form>
+    
+</body>
+</html>

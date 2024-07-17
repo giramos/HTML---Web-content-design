@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechas y horas</title>
+</head>
+<body>
+    <h1>Fechas y horas</h1>
+    <form action="#">
+
+        <label>Seleccione una fecha:</label>
+        <input name="fecha" type="date" min="2023-01-20" max="2023-02-25" step="2">
+        <br>
+
+        <label> Seleccione fecha y hora:</label>
+        <input type="datetime-local" name="fehcahora" 
+        min="2023-01-20T08:08" max="2023-02-25T12:00" value="2023-01-20T08:08">
+        <br>
+
+        <label>Seleccione una hora</label>
+        <input type="time" name="hora" min="00:10" max="12:00" value="12:00" step="5">
+        <br>
+
+        <label>Seleccione una semana:</label>
+        <input type="week" name="semana" min="2023-W50" max="2023-W51">
+        <br>
+
+        <label>Seleccione un mes:</label>
+        <input type="month" name="mes" min="2023-11">
+
+        <br>
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>

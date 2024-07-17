@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs texto</title>
+</head>
+
+<body>
+    <h1>Inputs de texto</h1>
+    <form action="#" method="get">
+
+        <label> Usuario: </label>
+        <!-- Validación del cliente -->
+        <input type="text" maxlength="4" minlength="2"><!-- maximo y minimo de caracteres -->
+
+        <br>
+
+        <label> Contraseña: </label>
+        <input type="password" name="clave">
+
+        <br>
+
+        <label>Email: </label>
+        <input type="email" multiple name="email"><!-- multiple, para enviar varios emails-->
+
+        <br>
+
+        <label>Búsqueda</label>
+        <input type="search">
+
+        <br>
+
+        <!-- Se usa hidden para enviar valores ocultos que no necesitan saber el cliente y Sí el desarrollador -->
+        <input type="hidden" name="oculto" value="elvaloroculto"><!-- value=valor Por defecto -->
+
+        <br>
+
+        <label> Telefono: </label>
+        <input type="tel">
+
+        <br>
+
+        <label>URL:</label>
+        <input type="url" name="web"><!-- acuerdate de poner en la url http:// -->
+
+
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
