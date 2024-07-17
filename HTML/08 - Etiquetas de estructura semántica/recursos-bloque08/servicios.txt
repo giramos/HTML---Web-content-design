@@ -1,0 +1,9 @@
+<!-- Título de nivel 2 -->
+Nuestros servicios
+
+<!-- Cada servicio es una unidad independiente y su título es de nivel 3 -->
+Servicio de asesoramiento
+Nuestro equipo estará encantado de ayudarte a seleccionar los muebles y accesorios perfectos que se adapten a tu estilo.
+
+Servicio de montaje y transporte
+Gratuitamente, nuestros profesionales transportarán y montarán, cuidadosamente, tus muebles.
