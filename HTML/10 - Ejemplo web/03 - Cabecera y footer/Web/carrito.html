@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logotipo -->
+        <img src="/HTML/10 - Ejemplo web/03 - Cabecera y footer/Recursos/logo-tienda.png" alt="">
+        <!-- Navegación -->
+        <nav aria-label="principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+        <!-- Formulario -->
+        <form method="get" action="#">
+            <p>Formulario para suscribirse al boletín de noticias</p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="aaa@bbb.com">
+            <br>
+            <button>Añádame</button>
+        </form>
+    </header>
+    <main>
+        <h1>Tu lista de la compra</h1>
+        <section>
+            <h2>Resumen del carrito</h2>
+            <figure>
+
+            </figure>
+        </section>
+
+        <section>
+            <h2>Confirmar pedido</h2>
+            <form action="#" method="get">
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+                <br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" required>
+                <br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <br>
+
+                <label for="pais">País:</label>
+                <input type="text" name="pais" id="pais">
+                <br>
+
+                <label for="calle">Calle:</label>
+                <input type="text" name="calle" id="calle" minlength="10" required>
+                <br>
+
+                <label for="envio">Método de envío:</label>
+                <input type="radio" name="envio" id="envio">
+                <br>
+
+                <label for="recepcion">Semana de recepción:</label>
+                <input type="text" name="recepcion" id="recepcion">
+                <br>
+
+                <label for="promociones">Acepto recibir promociones</label>
+                <input type="checkbox" name="promociones" id="promociones">
+                <br>
+
+                <input type="submit" name="" id="" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Texto -->
+        <p><small>TiendaRopa 2024&copy;</small></p>
+        <!-- Navegación -->
+        <nav aria-label="pie-principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+        <nav aria-label="pie-otros">
+            <a href="#">&#128195; Aviso legal </a>
+            <a href="#">&#128187; Política de cookies</a>
+        </nav>
+        <br>
+        <!-- Address -->
+        <address>
+            <a href="tiendaropa@email.com">tiendaropa@email.com</a><br>
+            <a href="tel:+34000000000">+34 000 000 000</a> <br>
+        </address>
+    </footer>
+</body>
+
+</html>
