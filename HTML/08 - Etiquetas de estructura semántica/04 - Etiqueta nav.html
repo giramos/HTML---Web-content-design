@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta nav</title>
+</head>
+<!-- Etiqueta nav: secciones de navegación: enlaces, menús desplegables, etc.
+ Pueden estar en footer, en header, tambien en el cambio de idioma-->
+<body>
+    <!-- Pie de pagina o footer: informacion de la empresa, documentos legales, enlaces de navegacion
+     copyright
+     -->
+    <!-- Etiqueta header aporta para el desarrollador y para los buscadores o navegaodres -->
+    <header>
+        <!-- Cabecera de un sitio web: Logotipo, titulo de nivel con un subtitutlo, 
+     enlaces de navegacion, barra de herramientas, buscador, etc. -->
+        <hgroup><!-- para agrupar titulo y su subnivel -->
+            <h1>Sabor</h1>
+            <p>Tu restaurante de referencia</p>
+        </hgroup>
+        <nav aria-label="principal"><!-- Navegacion PRINCIPAL Seccion de enlaces, de navegacion -->
+        <ul>
+            <li><a href="#">Menú</a></li> <!-- # nos dirige a la misma pagina -->
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        </nav> <!-- Nav -> Menu de navegacion, enlaces -->
+        <form action="#">
+            <label for="busqueda">Búsqueda</label>
+            <input type="search" name="busqueda" id="busqueda">
+        </form>
+    </header>
+    <!-- Main : contenido unico de cada pagina -->
+    <main>
+        <!-- lorem .. aparece todo lo demas en el parrafo -->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt dolor ut error eos quas autem
+            laborum
+            similique deleniti harum, fuga ipsam nam ipsum dolorum blanditiis officiis incidunt facere aliquid?</p>
+
+    </main>
+    <!-- Pie de página : footer -->
+    <footer>
+        <p><small>&copy; Restaurante sabor 2024</small></p>
+        <!-- Nav -> Menu de navegacion PIE DE PAGINA, enlaces -->
+        <nav aria-label="navegacion pie de pagina"><a href="#">Aviso legal</a> <a href="#">Cookies</a></nav>
+    </footer>
+</body>
+
+</html>

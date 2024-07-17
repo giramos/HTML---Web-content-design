@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta section</title>
+</head>
+
+<body>
+    <!-- Pie de pagina o footer: informacion de la empresa, documentos legales, enlaces de navegacion
+     copyright
+     -->
+    <!-- Etiqueta header aporta para el desarrollador y para los buscadores o navegaodres -->
+    <header>
+        <!-- Cabecera de un sitio web: Logotipo, titulo de nivel con un subtitutlo, 
+     enlaces de navegacion, barra de herramientas, buscador, etc. -->
+        <hgroup><!-- para agrupar titulo y su subnivel -->
+            <h1>Mi blog personal</h1>
+            <p>Mi día a día</p>
+        </hgroup>
+        <!-- Navegacion PRINCIPAL Seccion de enlaces, de navegacion -->
+        <nav aria-label="principal">
+            <ul>
+                <li><a href="#">Inicio</a></li> <!-- # nos dirige a la misma pagina -->
+                <li><a href="#">Entradas</a></li>
+                <li><a href="#">Autor</a></li>
+            </ul>
+        </nav> <!-- Nav -> Menu de navegacion, enlaces -->
+        <form action="#">
+            <label for="busqueda">Búsqueda</label>
+            <input type="search" name="busqueda" id="busqueda">
+        </form>
+    </header>
+    <!-- Main : contenido unico de cada pagina -->
+    <main>
+        <section>
+            <!-- Entradas populares-->
+            <h2>Entradas populares</h2>
+            <article>
+                <h3>Hoy</h3>
+                <p>...</p>
+            </article>
+
+            <article>
+                <h3>Ayer</h3>
+                <p>...</p>
+            </article>
+
+        </section>
+
+        <h2>Últimas Entradas</h2>
+
+        <!-- Entradas del blog   -->
+        <article> <!-- Etiqueta article para sellar ciertas partes de entradas y comentarios-->
+            <header>
+                <h3>Buen día</h3>
+            </header>
+            <p>Por fin ha dejado de llover.</p>
+            <footer>
+                <p>Enviado por Germán Iglesias Ramos enviado el 2 de Mayo.</p>
+                <!-- address : etiqueta de informacion de contacto-->
+                <address>
+                    Contactame en: <a href="tel:+34900900900">+34 900 900 900</a>
+                </address>
+            </footer>
+
+            <!-- Comentarios de la entrada-->
+
+            <h4>Comentarios</h4>
+            <article>
+                <h5>Comentario de Hernán:</h5>
+                <p>¡Y encima con buena temperatura!</p>
+            </article>
+            <article>
+                <h5>Comentario de Toni:</h5>
+                <p>Se acabó el paragüas.</p>
+            </article>
+        </article>
+
+        <!--Entrada del blog-->
+        <article>
+            <h3>Ensalada de pasta</h3>
+            <p>Hoy he probado la <em>famosa</em> ensalada. Esperaba más.</p>
+            <aside>
+                <p>La ensalada tiene mas de 2000 años de historia</p>
+            </aside>
+            <p>Enviado por Germán Iglesias Ramos el 30 de Julio</p>
+
+            <h4>Comentarios</h4>
+            <p>La entrada no tiene comentarios.</p>
+        </article>
+        <!-- etiqueta aside: informacion indirecta con el prpio documento o con el articulo
+             tambien puede indicar un menu de navegacion, etc -->
+        <aside>
+            <p>Estas son mis pensamientos y de nadie mas.</p>
+            <p>Escribo más cuando puedo que cuando quiero.</p>
+        </aside>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Mi primera entrada</a></li>
+                    <li><a href="#">Mi última entrada</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
+    <!-- etiqueta section: para agrupar contenido relacionado, con un denominador comun
+      dificil distinguir de <div>
+        -->
+    <!-- Pie de página : footer -->
+    <footer>
+        <!-- Nav -> Menu de navegacion PIE DE PAGINA, enlaces -->
+        <nav aria-label="navegacion pie de pagina"><a href="#">Aviso legal</a> <a href="#">Cookies</a></nav>
+        <address> <!-- address : etiqueta de informacion de contacto-->
+            Puedes contactarme vía email en <a href="mailto:german@gmail.com">german@gmail.com</a><br>
+            O puedes visitarme en: <br>
+            c/Uría, 60, 3ºC <br>
+            Oviedo - Astrias <br>
+            España
+        </address>
+        <p><small>&copy; Germán 2024</small></p>
+    </footer>
+</body>
+
+</html>

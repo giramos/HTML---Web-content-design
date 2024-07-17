@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas div y span</title>
+
+</head>
+
+<body>
+    <!-- anterior en versiones de antes era muy típico su uso, al 
+     tener etiquetas en las que podemos poner su identificador para anidar con hojas de estilo
+     ya no serían de uso útil ya que nos resultaría algo lioso-->
+    <!-- div es una etiqueta de bloque transparente al igual que span-->
+    <div id="cabecera">
+        <h1>Etiquetas no semánticas</h1>
+        <p>Una serie de ejemplos.</p>
+    </div>
+    <div id="cuerpo">
+        <div class="entrada">
+            <h2>Frío</h2>
+            <p>Hoy es un día<span class="hielo">frío </span>. Espero que mañana haga más<span
+                    class="fuego">calor</span>.</p>
+        </div>
+
+        <div class="entrada">
+            <h2>Pasta</h2>
+            <!-- span aqui no es un buen uso, para enfatizar tenemos otras <em>-->
+            <p>Hoy he probado la<span class="enfatizar">ensalada </span>de pasta. Esperaba más.</p>
+        </div>
+    </div>
+    <div id="pie">
+        <small>&copy; Mis ideas</small>
+    </div>
+
+
+</body>
+
+</html>

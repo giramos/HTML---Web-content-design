@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiqueta aside</title>
+</head>
+
+<body>
+    <!-- Pie de pagina o footer: informacion de la empresa, documentos legales, enlaces de navegacion
+     copyright
+     -->
+    <!-- Etiqueta header aporta para el desarrollador y para los buscadores o navegaodres -->
+    <header>
+        <!-- Cabecera de un sitio web: Logotipo, titulo de nivel con un subtitutlo, 
+     enlaces de navegacion, barra de herramientas, buscador, etc. -->
+        <hgroup><!-- para agrupar titulo y su subnivel -->
+            <h1>Sabor</h1>
+            <p>Tu restaurante de referencia</p>
+        </hgroup>
+        <nav aria-label="principal"><!-- Navegacion PRINCIPAL Seccion de enlaces, de navegacion -->
+            <ul>
+                <li><a href="#">Menú</a></li> <!-- # nos dirige a la misma pagina -->
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav> <!-- Nav -> Menu de navegacion, enlaces -->
+        <form action="#">
+            <label for="busqueda">Búsqueda</label>
+            <input type="search" name="busqueda" id="busqueda">
+        </form>
+    </header>
+    <!-- Main : contenido unico de cada pagina -->
+    <main>
+        <h2>Entradas</h2>
+
+        <!-- Entradas del blog   -->
+        <article> <!-- Etiqueta article para sellar ciertas partes de entradas y comentarios-->
+            <header>
+                <h3>Buen día</h3>
+            </header>
+            <p>Por fin ha dejado de llover.</p>
+            <footer>
+                <p>Enviado por Germán Iglesias Ramos enviado el 2 de Mayo.</p>
+            </footer>
+
+            <!-- Comentarios de la entrada-->
+
+            <h4>Comentarios</h4>
+            <article>
+                <h5>Comentario de Hernán:</h5>
+                <p>¡Y encima con buena temperatura!</p>
+            </article>
+            <article>
+                <h5>Comentario de Toni:</h5>
+                <p>Se acabó el paragüas.</p>
+            </article>
+        </article>
+
+        <!--Entrada del blog-->
+        <article>
+            <h3>Ensalada de pasta</h3>
+            <p>Hoy he probado la <em>famosa</em> ensalada. Esperaba más.</p>
+            <aside>
+                <p>La ensalada tiene mas de 2000 años de historia</p>
+            </aside>
+            <p>Enviado por Germán Iglesias Ramos el 30 de Julio</p>
+
+            <h4>Comentarios</h4>
+            <p>La entrada no tiene comentarios.</p>
+        </article>
+        <!-- etiqueta aside: informacion indirecta con el prpio documento o con el articulo
+             tambien puede indicar un menu de navegacion, etc -->
+        <aside>
+            <p>Estas son mis pensamientos y de nadie mas.</p>
+            <p>Escribo más cuando puedo que cuando quiero.</p>
+        </aside>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Mi primera entrada</a></li>
+                    <li><a href="#">Mi última entrada</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </main>
+    <!-- Pie de página : footer -->
+    <footer>
+        <p><small>&copy; Restaurante sabor 2024</small></p>
+        <!-- Nav -> Menu de navegacion PIE DE PAGINA, enlaces -->
+        <nav aria-label="navegacion pie de pagina"><a href="#">Aviso legal</a> <a href="#">Cookies</a></nav>
+    </footer>
+</body>
+
+</html>
