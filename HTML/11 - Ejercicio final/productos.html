@@ -4,65 +4,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de ropa</title>
+    <title>Tienda de ropa - Productos</title>
 </head>
 
 <body>
     <!-- Cabecera -->
     <header>
-
-        <a href="recursos/logo-tienda.png"> <!-- Enlace para descargar la imagen de la tienda -->
-            <img src="recursos/logo-tienda.png" alt="Logotipo de la tienda de ropa"> <!-- Imagen del logotipo de la tienda-->
+        <a href="recursos/logo-tienda.png">
+            <img src="recursos/logo-tienda.png" alt="Logotipo de la tienda de ropa">
         </a>
-
-        <nav aria-label="navegación principal"><!-- Navegacion PRINCIPAL -->
+        <nav aria-label="navegación principal">
             <ul>
-                <li><a href="index.html">&#128507;Inicio</a></li> <!-- # nos dirige a la misma pagina -->
+                <li><a href="index.html">&#128507;Inicio</a></li>
                 <li><a href="#">&#128511;Productos</a></li>
                 <li><a href="carrito.html">&#128509;Carrito</a></li>
             </ul>
         </nav>
-
-        <form action="#"> <!-- Formulario -->
-            <fieldset> <!-- crea un marco-->
+        <form action="#">
+            <fieldset>
                 <legend>Suscribirse al boletín de noticias</legend>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
-        
-                <!-- <input type="submit" name="" id="" value="Añádeme"> -->
                 <button>Añádeme</button>
             </fieldset>
         </form>
-
     </header>
+
     <!-- Main: contenido único de cada página -->
     <main>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum odit sapiente magni, dolore <br> inventore dolorum consequatur! Animi sunt, libero alias quia beatae quam explicabo id <br>adipisci maiores nemo molestias molestiae.
-        </p>
+        <section>
+            <header>
+                <h1>Catálogo de TiendaRopa</h1>
+                <form action="#">
+                    <fieldset>
+                        <legend>Filtrado</legend>
+                        <label for="ordenar">Ordenar por:</label>
+                        <select name="ordenar" id="ordenar">
+                            <option disabled value="">Productos...</option>
+                            <option selected value="baratos">Más baratos</option>
+                            <option value="caros">Más caros</option>
+                            <option value="oferta">Mayor oferta</option>
+                        </select>
+
+                        <br>
+
+                        <label for="articulos">Artículos por página:</label>
+                        <select name="articulos" id="articulos">
+                            <option disabled value="">Número de artículos...</option>
+                            <option selected value="25">25 artículos</option>
+                            <option value="50">50 artículos</option>
+                            <option value="100">100 artículos</option>
+                        </select>
+
+                        <br>
+
+                        <input type="submit" name="filtrar" id="filtrar" value="Filtrar">
+                    </fieldset>
+                </form>
+            </header>
+
+            <!-- Productos -->
+            <article>
+                <h2>Camiseta Elegante</h2>
+                <figure>
+                    <a href="recursos/producto-1.png" target="_blank">
+                        <img src="recursos/producto-1-mini.png" alt="Camiseta Elegante">
+                    </a>
+                    <figcaption>Una camiseta clásica con un toque elegante, perfecta para ocasiones especiales.</figcaption>
+                </figure>
+                <p><strong>Precio</strong>: 29.99 €</p>
+                <p>Una camiseta clásica con un toque elegante, perfecta para ocasiones especiales. Fabricada con algodón suave y cómodo. Disponible en varios colores.</p>
+                <ul>
+                    <li>Tallas: S, M, L, XL</li>
+                    <li>Colores: Verde, Blanco, Azul Marino, Gris</li>
+                    <li>Material: 100% Algodón</li>
+                </ul>
+                <section>
+                    <h3>Comentarios</h3>
+                    <div>
+                        <p><strong>Cliente:</strong> Ana Rodríguez</p>
+                        <p><strong>Fecha:</strong> 05-06-2023</p>
+                        <blockquote>¡Me encanta esta camiseta! Es muy cómoda y elegante al mismo tiempo.</blockquote>
+                    </div>
+                    <div>
+                        <p><strong>Cliente:</strong> Carlos Martínez</p>
+                        <p><strong>Fecha:</strong> 10-06-2023</p>
+                        <blockquote>La calidad es excepcional. Definitivamente compraré nuevamente.</blockquote>
+                    </div>
+                </section>
+            </article>
+
+            <article>
+                <h2>Chaqueta de Cuero Vintage</h2>
+                <figure>
+                    <a href="recursos/producto-2.png" target="_blank">
+                        <img src="recursos/producto-2-mini.png" alt="Chaqueta de Cuero Vintage">
+                    </a>
+                    <figcaption>Una chaqueta de cuero con un estilo vintage y único.</figcaption>
+                </figure>
+                <p><strong>Precio</strong>: 149.99 €</p>
+                <p>Una chaqueta de cuero con un estilo vintage y único. Confeccionada con piel genuina que le confiere durabilidad y autenticidad. Ideal para cualquier ocasión.</p>
+                <ul>
+                    <li>Tallas: XS, S, M, L</li>
+                    <li>Colores: Marrón oscuro, Negro</li>
+                    <li>Material: Piel Genuina</li>
+                </ul>
+                <section>
+                    <h3>Comentarios</h3>
+                    <div>
+                        <p><strong>Cliente:</strong> Laura González</p>
+                        <p><strong>Fecha:</strong> 08-06-2023</p>
+                        <blockquote>¡La chaqueta es increíble! Me encanta cómo se ajusta y el cuero se siente de alta calidad.</blockquote>
+                    </div>
+                    <div>
+                        <p><strong>Cliente:</strong> Javier López</p>
+                        <p><strong>Fecha:</strong> 12-06-2023</p>
+                        <blockquote>Esta chaqueta superó mis expectativas. El diseño vintage realmente resalta y combina bien con mi estilo.</blockquote>
+                    </div>
+                </section>
+            </article>
+
+            <article>
+                <h2>Vestido Floral Primavera</h2>
+                <figure>
+                    <a href="recursos/producto-3.png" target="_blank">
+                        <img src="recursos/producto-3-mini.png" alt="Vestido Floral Primavera">
+                    </a>
+                    <figcaption>Un hermoso vestido floral perfecto para la temporada de primavera.</figcaption>
+                </figure>
+                <p><strong>Precio</strong>: 39.99 €</p>
+                <p>Un hermoso vestido floral perfecto para la temporada de primavera. Confeccionado con tela ligera y cómoda, ideal para eventos al aire libre.</p>
+                <ul>
+                    <li>Tallas: XS, S, M, L</li>
+                    <li>Colores: Blanco, Rosa, Azul</li>
+                    <li>Material: Poliéster</li>
+                </ul>
+                <section>
+                    <h3>Comentarios</h3>
+                    <div>
+                        <p><strong>Cliente:</strong> Marta Gómez</p>
+                        <p><strong>Fecha:</strong> 06-06-2023</p>
+                        <blockquote>Este vestido es exactamente lo que necesitaba para un picnic. El estampado es encantador.</blockquote>
+                    </div>
+                    <div>
+                        <p><strong>Cliente:</strong> Juan Pérez</p>
+                        <p><strong>Fecha:</strong> 09-06-2023</p>
+                        <blockquote>La calidad es excelente y el diseño es muy elegante para la primavera.</blockquote>
+                    </div>
+                </section>
+            </article>
+
+            <article>
+                <h2>Pantalones Vaqueros Clásicos</h2>
+                <figure>
+                    <a href="recursos/producto-4.png" target="_blank">
+                        <img src="recursos/producto-4-mini.png" alt="Pantalones Vaqueros Clásicos">
+                    </a>
+                    <figcaption>Pantalones vaqueros de corte clásico y atemporal.</figcaption>
+                </figure>
+                <p><strong>Precio</strong>: 49.99 €</p>
+                <p>Pantalones vaqueros de corte clásico y atemporal. Hechos de denim de alta calidad para brindar comodidad y estilo en cualquier ocasión.</p>
+                <ul>
+                    <li>Tallas: 28, 30, 32, 34</li>
+                    <li>Colores: Azul Denim</li>
+                    <li>Material: Denim</li>
+                </ul>
+                <section>
+                    <h3>Comentarios</h3>
+                    <div>
+                        <p><strong>Cliente:</strong> María López</p>
+                        <p><strong>Fecha:</strong> 07-06-2023</p>
+                        <blockquote>¡Estos vaqueros son geniales! El ajuste es perfecto y el denim es resistente.</blockquote>
+                    </div>
+                    <div>
+                        <p><strong>Cliente:</strong> Alejandro Torres</p>
+                        <p><strong>Fecha:</strong> 11-06-2023</p>
+                        <blockquote>Siempre he confiado en esta marca. Estos pantalones no son la excepción. Muy satisfecho con mi compra.</blockquote>
+                    </div>
+                </section>
+            </article>
+
+            <article>
+                <h2>Sudadera Deportiva Élite</h2>
+                <figure>
+                    <a href="recursos/producto-5.png" target="_blank">
+                        <img src="recursos/producto-5-mini.png" alt="Sudadera Deportiva Élite">
+                    </a>
+                    <figcaption>Una sudadera deportiva de alta gama diseñada para un rendimiento óptimo.</figcaption>
+                </figure>
+                <p><strong>Precio</strong>: 54.99 €</p>
+                <p>Una sudadera deportiva de alta gama diseñada para un rendimiento óptimo. Confeccionada con tela transpirable que te mantendrá fresco durante tus entrenamientos más intensos.</p>
+                <ul>
+                    <li>Tallas: S, M, L, XL</li>
+                    <li>Colores: Negro, Gris Oscuro, Azul Marino</li>
+                    <li>Material: Poliéster y Elastano</li>
+                </ul>
+                <section>
+                    <h3>Comentarios</h3>
+                    <div>
+                        <p><strong>Cliente:</strong> Laura Martínez</p>
+                        <p><strong>Fecha:</strong> 08-06-2023</p>
+                        <blockquote>¡Esta sudadera supera mis expectativas! La comodidad y la calidad son excepcionales.</blockquote>
+                    </div>
+                    <div>
+                        <p><strong>Cliente:</strong> Antonio Gutiérrez</p>
+                        <p><strong>Fecha:</strong> 10-06-2023</p>
+                        <blockquote>Llevo usándola en mis sesiones de entrenamiento y es perfecta. Se adapta muy bien y el tejido es genial.</blockquote>
+                    </div>
+                </section>
+            </article>
+
+            <p><strong>IVA incluido en todos los productos.</strong></p>
+        </section>
     </main>
+
     <!-- Pie -->
     <footer>
         <p><small>TiendaRopa 2024&copy;</small></p>
-        
-        <nav aria-label="navegación a pie de página"><!-- Navegacion Pie de página -->
+        <nav aria-label="navegación a pie de página">
             <ul>
-                <li><a href="index.html">Inicio</a></li> <!-- # nos dirige a la misma pagina -->
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="#">Productos</a></li>
                 <li><a href="carrito.html">Carrito</a></li>
             </ul>
         </nav>
-        
         <p><a href="#">Aviso legal</a> <a href="#">Política de cookies</a></p>
-        
-        <address> <!-- address : etiqueta de informacion de contacto-->
+        <address>
             Contacto vía email en <a href="mailto:tiendaropa@email.com">tiendaropa@email.com</a><br>
             Contacto vía teléfono al <a href="tel:+34000000000">+34 000 000 000</a><br>
             O puedes visitarnos en: <br>
-            c/Calle, Numero, Piso <br>
+            c/Calle, Número, Piso <br>
             Oviedo - Asturias <br>
             España
-        </address> 
+        </address>
     </footer>
 </body>
 
