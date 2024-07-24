@@ -4,6 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
     <title>Tienda de ropa</title>
 </head>
 
@@ -12,7 +22,8 @@
     <header>
 
         <a href="recursos/logo-tienda.png"> <!-- Enlace para descargar la imagen de la tienda -->
-            <img src="recursos/logo-tienda.png" alt="Logotipo de la tienda de ropa"> <!-- Imagen del logotipo de la tienda-->
+            <img src="recursos/logo-tienda.png" alt="Logotipo de la tienda de ropa">
+            <!-- Imagen del logotipo de la tienda-->
         </a>
 
         <nav aria-label="navegación principal"><!-- Navegacion PRINCIPAL -->
@@ -28,7 +39,7 @@
                 <legend>Suscribirse al boletín de noticias</legend>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
-        
+
                 <!-- <input type="submit" name="" id="" value="Añádeme"> -->
                 <button>Añádeme</button>
             </fieldset>
@@ -37,14 +48,109 @@
     </header>
     <!-- Main: contenido único de cada página -->
     <main>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum odit sapiente magni, dolore <br> inventore dolorum consequatur! Animi sunt, libero alias quia beatae quam explicabo id <br>adipisci maiores nemo molestias molestiae.
-        </p>
+        <h1>Tu lista de la compra</h1>
+        <section>
+            <h2>Resumen del carrito</h2>
+            <figure>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Precio Unitario</th>
+                            <th scope="col">Cantidad</th>
+                            <th scope="col">Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Vestido Floral Primavera</td>
+                            <td>39,99 €</td>
+                            <td>2</td>
+                            <td>79,98 €</td>
+                        </tr>
+                        <tr>
+                            <td>Pantalones Vaqueros Clásicos</td>
+                            <td>49,99 €</td>
+                            <td>1</td>
+                            <td>49,99 €</td>
+                        </tr>
+                        <tr>
+                            <td>Sudadera Deportiva Élite</td>
+                            <td>54,99 €</td>
+                            <td>3</td>
+                            <td>164,97 €</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3">Total del pedido (IVA incluido):</th>
+                            <td>294,94 €</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </figure>
+        </section>
+        <section>
+            <h2>Confirmar pedido</h2>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+
+                <br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" name="apellidos" id="apellidos" required>
+
+                <br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" name="telefono" id="telefono">
+
+                <br>
+
+                <label for="pais">País:</label>
+                <select name="pais" id="pais">
+                    <option value="espana">España</option>
+                    <option value="portugal">Portugal</option>
+                    <option value="francia">Francia</option>
+                </select>
+
+                <br>
+
+                <label for="calle">Calle:</label>
+                <input type="text" name="calle" id="calle" minlength="10" required>
+
+                <br>
+
+                <label>Método de envío:</label>
+                <input type="radio" name="envio" id="e-gratis" value="gratis" checked><!-- Valor por defecto marcado-->
+                <label for="e-gratis">Gratis</label>
+                <input type="radio" name="envio" id="e-express" value="express">
+                <label for="e-express">24h (+4,99€)</label>
+                <input type="radio" name="envio" id="e-urgente" value="urgente">
+                <label for="e-urgente">Muy Urgente (+12,99€)</label>
+
+                <br>
+
+                <label for="semana">Semana de recepción:</label>
+                <input type="week" name="semana" id="semana" min="2025-W01" max="2025-W51">
+
+                <br>
+
+                <input type="checkbox" name="interes" id="cocina">
+                <label for="cocina">Acepto recibir promociones</label>
+
+                <br>
+
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+            </form>
+        </section>
     </main>
     <!-- Pie -->
     <footer>
         <p><small>TiendaRopa 2024&copy;</small></p>
-        
+
         <nav aria-label="navegación a pie de página"><!-- Navegacion Pie de página -->
             <ul>
                 <li><a href="index.html">Inicio</a></li> <!-- # nos dirige a la misma pagina -->
@@ -52,9 +158,9 @@
                 <li><a href="#">Carrito</a></li>
             </ul>
         </nav>
-        
+
         <p><a href="#">Aviso legal</a> <a href="#">Política de cookies</a></p>
-        
+
         <address> <!-- address : etiqueta de informacion de contacto-->
             Contacto vía email en <a href="mailto:tiendaropa@email.com">tiendaropa@email.com</a><br>
             Contacto vía teléfono al <a href="tel:+34000000000">+34 000 000 000</a><br>
@@ -62,7 +168,7 @@
             c/Calle, Numero, Piso <br>
             Oviedo - Asturias <br>
             España
-        </address> 
+        </address>
     </footer>
 </body>
 
