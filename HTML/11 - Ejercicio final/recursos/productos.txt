@@ -1,0 +1,118 @@
+<!-- Producto -->
+
+Nombre: Camiseta Elegante
+
+Imágenes: producto-1.png y producto-1-mini.png
+
+Descripción: Una camiseta clásica con un toque elegante, perfecta para ocasiones especiales. Fabricada con algodón suave y cómodo. Disponible en varios colores.
+
+- Tallas: S, M, L, XL
+- Colores: Verde, Blanco, Azul Marino, Gris
+- Material: 100% Algodón
+
+Precio: 29.99 €
+
+Comentarios:
+1. Cliente: Ana Rodríguez
+   Fecha: 05-06-2023
+   Comentario: ¡Me encanta esta camiseta! Es muy cómoda y elegante al mismo tiempo.
+
+2. Cliente: Carlos Martínez
+   Fecha: 10-06-2023
+   Comentario: La calidad es excepcional. Definitivamente compraré nuevamente.
+
+
+<!-- Producto -->
+
+Nombre: Chaqueta de Cuero Vintage
+
+Imágenes: producto-2.png y producto-2-mini.png
+
+Descripción: Una chaqueta de cuero con un estilo vintage y único. Confeccionada con piel genuina que le confiere durabilidad y autenticidad. Ideal para cualquier ocasión.
+
+- Tallas: XS, S, M, L
+- Colores: Marrón oscuro, Negro
+- Material: Piel Genuina
+
+Precio: 149.99 €
+
+Comentarios:
+1. Cliente: Laura González
+   Fecha: 08-06-2023
+   Comentario: ¡La chaqueta es increíble! Me encanta cómo se ajusta y el cuero se siente de alta calidad.
+
+2. Cliente: Javier López
+   Fecha: 12-06-2023
+   Comentario: Esta chaqueta superó mis expectativas. El diseño vintage realmente resalta y combina bien con mi estilo.
+   
+   
+<!-- Producto -->
+
+Nombre: Vestido Floral Primavera
+
+Imágenes: producto-3.png y producto-3-mini.png
+
+Descripción: Un hermoso vestido floral perfecto para la temporada de primavera. Confeccionado con tela ligera y cómoda, ideal para eventos al aire libre.
+
+- Tallas: XS, S, M, L
+- Colores: Blanco, Rosa, Azul
+- Material: Poliéster
+
+Precio: 39.99 €
+
+Comentarios:
+1. Cliente: Marta Gómez
+   Fecha: 06-06-2023
+   Comentario: Este vestido es exactamente lo que necesitaba para un picnic. El estampado es encantador.
+
+2. Cliente: Juan Pérez
+   Fecha: 09-06-2023
+   Comentario: La calidad es excelente y el diseño es muy elegante para la primavera.
+
+
+<!-- Producto -->
+
+Nombre: Pantalones Vaqueros Clásicos
+
+Imágenes: producto-4.png y producto-4-mini.png
+
+Descripción: Pantalones vaqueros de corte clásico y atemporal. Hechos de denim de alta calidad para brindar comodidad y estilo en cualquier ocasión.
+
+- Tallas: 28, 30, 32, 34
+- Colores: Azul Denim
+- Material: Denim
+
+Precio: 49.99 €
+
+Comentarios:
+1. Cliente: María López
+   Fecha: 07-06-2023
+   Comentario: ¡Estos vaqueros son geniales! El ajuste es perfecto y el denim es resistente.
+
+2. Cliente: Alejandro Torres
+   Fecha: 11-06-2023
+   Comentario: Siempre he confiado en esta marca. Estos pantalones no son la excepción. Muy satisfecho con mi compra.
+   
+   
+ <!-- Producto -->
+ 
+Nombre: Sudadera Deportiva Élite
+
+Imágenes: producto-5.png y producto-5-mini.png
+
+Descripción: Una sudadera deportiva de alta gama diseñada para un rendimiento óptimo. Confeccionada con tela transpirable que te mantendrá fresco durante tus entrenamientos más intensos.
+
+- Tallas: S, M, L, XL
+- Colores: Negro, Gris Oscuro, Azul Marino
+- Material: Poliéster y Elastano
+
+Precio: 54.99 €
+
+Comentarios:
+1. Cliente: Laura Martínez
+   Fecha: 08-06-2023
+   Comentario: ¡Esta sudadera supera mis expectativas! La comodidad y la calidad son excepcionales.
+
+2. Cliente: Antonio Gutiérrez
+   Fecha: 10-06-2023
+   Comentario: Llevo usándola en mis sesiones de entrenamiento y es perfecta. Se adapta muy bien y el tejido es genial.
