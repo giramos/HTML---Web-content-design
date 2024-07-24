@@ -12,7 +12,8 @@
     <header>
 
         <a href="recursos/logo-tienda.png"> <!-- Enlace para descargar la imagen de la tienda -->
-            <img src="recursos/logo-tienda.png" alt="Logotipo de la tienda de ropa"> <!-- Imagen del logotipo de la tienda-->
+            <img src="recursos/logo-tienda.png" alt="Logotipo de la tienda de ropa">
+            <!-- Imagen del logotipo de la tienda-->
         </a>
 
         <nav aria-label="navegación principal"><!-- Navegacion PRINCIPAL -->
@@ -26,10 +27,10 @@
         <form action="#"> <!-- Formulario -->
             <fieldset> <!-- crea un marco-->
                 <legend>Suscribirse al boletín de noticias</legend>
-        
+
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
-        
+
                 <!-- <input type="submit" name="" id="" value="Añádeme"> -->
                 <button>Añádeme</button>
             </fieldset>
@@ -38,14 +39,99 @@
     </header>
     <!-- Main: contenido único de cada página -->
     <main>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum odit sapiente magni, dolore <br> inventore dolorum consequatur! Animi sunt, libero alias quia beatae quam explicabo id <br>adipisci maiores nemo molestias molestiae.
-        </p>
+        <section>
+            <hgroup>
+                <h1>TiendaRopa</h1>
+                <p>Tu tienda de ropa de confianza</p>
+            </hgroup>
+            <figure>
+                <a download href="recursos/video.mp4">
+                    <video width="400" controls loop autoplay muted>
+                        <source src="recursos/video.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </a>
+                <figcaption>Nuestro catálogo de ropa</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Servicios insuperables</h2>
+            <ul>
+                <li>
+                    Primeras marcas
+                    <p><code>Lorem ipsum dolor sit amet consectetur adipisicing elit.</code> Numquam illum accusamus
+                        <br>voluptate
+                        mayores sint
+                        hic, a ipsa sunt eum voluptatum ab quos <small>consequuntur repudiandae</small> <br>labore
+                        nostrum nemo
+                        consectetur
+                        c<sub>onsequatur</sub>? <sub>R</sub>e<sup>i</sup>ciendis.
+                    </p>
+                </li>
+                <li>
+                    Temporada de verano
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque magni minima, quidem
+                        <br>consequuntur
+                        animi
+                        iure eos <strong>perferendis</strong> facere distinctio totam <i>error</i> eius dignissimos
+                        <br>architecto.
+                        <i>Laboriosam</i> repellendus
+                        dignissimos <strong>consequuntur</strong> consectetur ipsum.
+                    </p>
+                </li>
+                <li>
+                    Productos reacondicionados
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt atque dicta quo
+                        <br>recusandae,
+                        corporis,
+                        ducimus modi perspiciatis tempore beatae ut, excepturi nobis <br><em>fugiat voluptate adipisci
+                            quos eos
+                            molestiae ad! Ducimus!</em>
+                    </p>
+                </li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>Nuestros clientes opinan</h2>
+            <article>
+                <h3>Opinión del equipo del sitio <a href="http://www.ggooggllee.es" target="_blank">Ggooggllee</a>:</h3>
+                <p>
+                    <q><em>¡La mejor experiencia de compra en línea!</em> <br>TiendaRopa tiene una amplia selección de
+                        ropa
+                        y
+                        comprar
+                        desde casa nunca ha sido tan fácil.</q>
+                </p>
+            </article>
+            <article>
+                <h3>Opinión de Teresa la dueña de <a href="http://www.bankosantander.es" target="_blank">Banco
+                        Santader</a>:
+                </h3>
+                <p>
+                    <q>
+                        Siempre dudé en comprar ropa en línea, pero <strong>TiendaRopa</strong> cambió eso. Los
+                        productos
+                        son tal como se muestran, y el proceso de pedido es sencillo y seguro.
+                    </q>
+                </p>
+            </article>
+            <article>
+                <h3>Opinión de Alberta:</h3>
+                <p>
+                    <q>
+                        <i lang="en">Shopping at TiendaRopa was a breeze. Their online store offers a fantastic range of
+                            clothing, and I appreciated the smooth checkout process.</i>
+                    </q>
+                </p>
+            </article>
+
+        </section>
     </main>
     <!-- Pie -->
     <footer>
         <p><small>TiendaRopa 2024&copy;</small></p>
-        
+
         <nav aria-label="navegación a pie de página"><!-- Navegacion Pie de página -->
             <ul>
                 <li><a href="#">Inicio</a></li> <!-- # nos dirige a la misma pagina -->
@@ -53,9 +139,9 @@
                 <li><a href="carrito.html">Carrito</a></li>
             </ul>
         </nav>
-        
+
         <p><a href="#">Aviso legal</a> <a href="#">Política de cookies</a></p>
-        
+
         <address> <!-- address : etiqueta de informacion de contacto-->
             Contacto vía email en <a href="mailto:tiendaropa@email.com">tiendaropa@email.com</a><br>
             Contacto vía teléfono al <a href="tel:+34000000000">+34 000 000 000</a><br>
@@ -63,7 +149,7 @@
             c/Calle, Numero, Piso <br>
             Oviedo - Asturias <br>
             España
-        </address> 
+        </address>
     </footer>
 </body>
 
