@@ -25,10 +25,17 @@ Introducción en el lenguaje de marcado HTML.
 ---
 
 ## Objetivo final
+
+Imágenes de la web de ejemplo final
+
+
 ![Imagen web inicio 1](https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/img/Imagen1.png)
+
 
 ![Imagen web inicio 2](https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/img/Imagen2.png)
 
+
 ![Imagen web inicio 3](https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/img/Imagen3.png)
+
 
 ![Imagen web inicio 4](https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/img/Imagen4.png)
