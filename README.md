@@ -1,4 +1,5 @@
 # [HTML] Diseño de contenidos en la web
+## *Autor: Germán Iglesias Ramos*
 ---
 ## Descripción
 
@@ -9,6 +10,7 @@ Introducción en el lenguaje de marcado HTML.
 
 ## Web activa (URL)
 
+<http://pruebahtml.infinityfreeapp.com/index.html>
 ---
 
 ## Contenidos
@@ -26,7 +28,7 @@ Introducción en el lenguaje de marcado HTML.
 
 ## Objetivo final
 
-Imágenes de la web de ejemplo final
+**Imágenes de la web de ejemplo final**
 
 
 ![Imagen web inicio 1](https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/img/Imagen1.png)
@@ -39,3 +41,15 @@ Imágenes de la web de ejemplo final
 
 
 ![Imagen web inicio 4](https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/img/Imagen4.png)
+
+---
+## Ayuda
+
+**Documento con ejercicios y ejemplos por contenidos**
+>[DOC][doc]
+
+
+[doc]: https://github.com/giramos/HTML---Web-content-design/blob/master/HTML/doc/HTML.pdf
+---
+
+
