@@ -8,7 +8,7 @@ Introducción en el lenguaje de marcado HTML.
 
 ---
 
-## Web activa (URL)
+## Web activa (URL) (INACTIVA)
 
 <http://pruebahtml.infinityfreeapp.com/index.html>
 ---
